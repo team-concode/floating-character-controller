@@ -27,7 +27,7 @@ I referred to the following article for the implementation of the jumping mechan
 - Jump height proportional to the duration of button press
 - Jump state event callbacks
 
-## Not implemented
+### Not implemented
 Since the code was created specifically for a pixel art game, certain parts were excluded from the implementation. The missing parts are as follows:
 
 - Capsule upright updating 
