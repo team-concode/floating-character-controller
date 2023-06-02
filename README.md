@@ -1,16 +1,17 @@
 # floating-character-controller
 
 A floating capsule character controller made in Unity 3D.
-여기 코드는 Very Very Valet게임의 기술 블로그의 영상을 참고해서 구현한 했습니다. 점프 부분과 Platform에 대한 구현은 아래 글을 참고 했습니다.
-https://github.com/joebinns/stylised-character-controller
 
-https://www.youtube.com/watch?v=qdskE8PJy6Q
 
-Floating capsule 방법이 필요한 이유는 영상에도 나오지만 다음과 같은 이유들입니다.
-- Ground clearness
-- No friction 
-- Sticking to slope
-- Control over downward forces 
+## References
+여기 코드는 Very Very Valet게임의 기술 블로그의 영상을 참고해서 구현한 했습니다. 
+
+[![Video Label](http://img.youtube.com/vi/qdskE8PJy6Q/0.jpg)](https://youtu.be/qdskE8PJy6Q)
+
+점프 부분과 Platform에 대한 구현은 아래 글을 참고 했습니다.
+
+[stylised-character-controller](https://github.com/joebinns/stylised-character-controller)
+
 
 ## Features
 ### 이동
