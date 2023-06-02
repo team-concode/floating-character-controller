@@ -1,32 +1,34 @@
-# floating-character-controller
+# Floating Character Controller
 
 A floating capsule character controller made in Unity 3D.
 
+[![Floating Character Controller](http://img.youtube.com/vi/bHZA_pdb9E0/0.jpg)](https://youtu.be/bHZA_pdb9E0)
+
 
 ## References
-여기 코드는 Very Very Valet게임의 기술 블로그의 영상을 참고해서 구현한 했습니다. 
+This code is implemented based on the technical blog video of the game "Very Very Valet."
 
-[![Video Label](http://img.youtube.com/vi/qdskE8PJy6Q/0.jpg)](https://youtu.be/qdskE8PJy6Q)
+[![Very Very Valet](http://img.youtube.com/vi/qdskE8PJy6Q/0.jpg)](https://youtu.be/qdskE8PJy6Q)
 
-점프 부분과 Platform에 대한 구현은 아래 글을 참고 했습니다.
+I referred to the following article for the implementation of the jumping mechanism and the platform in the code.
 
 [stylised-character-controller](https://github.com/joebinns/stylised-character-controller)
 
 
 ## Features
-### 이동
-- 빠른 반응의 캐릭터 이동
-- 지형의 굴곡에 영향을 받지 않은 이동
-- 콜라이더가 충돌하면서 갑자기 튀어 올라가는 현상 등 해결
+### Movement
+- Fast responsive character movement
+- Smooth movement on undulating surfaces
+- Avoiding anomalies caused by collider collisions
 
-### 점프
-- 버튼을 누른 시간에 비례하는 점프
-- 코요테 점프
-- 점프 버퍼링
-- 점프 상태 이벤트 콜백
+### Jump
+- Coyote Jump
+- Jump buffering
+- Jump height proportional to the duration of button press
+- Jump state event callbacks
 
-## 구현이 안된 부분
-픽셀아트 게임 x2에서 사용하기 위해 구현을 한 프로젝트라 몇가지는 구현에서 제외 했습니다. 빠진 부분은 다음과 같습니다.
+## Not implemented
+Since the code was created specifically for a pixel art game, certain parts were excluded from the implementation. The missing parts are as follows:
 
 - Capsule upright updating 
 - Downward forces 
